@@ -1,0 +1,132 @@
+*{ margin: 0%; padding: 0%;font-family: 'Patrick Hand', cursive ;
+ }
+
+  header {
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient( to left,#fff ,#797bf8 );
+    
+}
+    
+    
+
+.navsection {
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    background-color:lightgoldenrodyellow;
+    background-image: linear-gradient(to top,#fff , #797bf8 );
+
+}
+.logo{
+    width: 40%;
+color: #fff;
+background-image: linear-gradient( rgb(101, 221, 221),#7e47ee);
+padding-left: 100px;
+box-sizing: border-box;
+}
+.logo h1{
+    text-transform: uppercase;
+font-size: 1.6rem;
+animation:aagepiche 5s linear infinite;
+animation-direction: alternate;
+}
+@keyframes aagepiche{
+    from{padding-left: 40px;}
+    to{padding-right: 40px;}
+}
+nav{
+    width: 60%;
+    background-color:#797bf8;
+    display: flex;
+    justify-content: space-around;
+    
+    }
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 1000;
+    font-size: 17px;
+    position: relative;
+ }
+  
+
+  nav a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    border-bottom:2px solid #4458dc ;
+    transition:all 0.4s linear;
+    
+      }
+nav a:hover:before{
+          width: 100%;
+      }
+main { height: 80vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    }
+
+
+.rightside img{
+    max-width: 400px;
+    height: auto;
+}
+.leftside{
+    color:black;
+    text-transform: uppercase;
+}
+.leftside h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative ;
+}
+.leftside h3:after{ 
+    content:"";
+    width: 450px;
+    height: 3px;
+    position: absolute;
+    top:43% ;
+    left: 35%;
+    background-color: black;
+ }
+.leftside h1{
+     margin-top: 20px;
+    font-size: 70px;
+    margin-bottom:25px ;}
+.leftside h2{
+         margin-bottom:35px ;
+         font-weight:100 ;
+         word-spacing:4px ;
+
+     }
+
+    
+     button{
+         background-color: #9593e0;
+         border-radius: 15%;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         justify-content: space-between;
+     }
+     button:hover{color: rgb(10, 9, 9);
+     
+        background-color: thistle;
+        border: double 2px rgb(204, 201, 233);
+        box-shadow: none;
+        background-image: none;}
+
+
+
+
+
+
+
+
